@@ -17,7 +17,9 @@ class Transfer
     if valid? 
       sender.balance -= amount
       receiver.balance += amount
-  
+    else 
+      "rejected"
+    end
   end  
   
 end
