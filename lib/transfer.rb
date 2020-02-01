@@ -28,9 +28,6 @@ class Transfer
     if status = "complete"
       sender.balance += amount
       receiver.balance -= amount
-      status = 
-      
-  
+      status = "pending"
   end  
-  
 end
